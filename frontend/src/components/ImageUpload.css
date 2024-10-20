@@ -122,7 +122,7 @@
 
 /* Style for ingredients list in two columns */
 .ingredients-list {
-    columns: 3;
+    columns: 2;
     column-gap: 40px;
 }
 
