@@ -2,7 +2,7 @@
 
 # This application takes in an Image and give out the ingredients used to make the dish
 
-# For example if you inout an image of pizza it will give you things required to make it such as
+# For example if you input an image of pizza it will give you things required to make it such as
 # cheese, flour,  pizza sauce etc
 
 # used gemini API to process the image which is given as input by the user
