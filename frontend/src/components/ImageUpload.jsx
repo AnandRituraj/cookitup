@@ -62,7 +62,7 @@ function ImageUpload() {
     formData.append("image", selectedFile);
 
     try {
-      const res = await fetch("http://localhost:5001/api/upload", {
+      const res = await fetch("https://cookitup.onrender.com/api/upload", {
         method: "POST",
         body: formData,
       });
