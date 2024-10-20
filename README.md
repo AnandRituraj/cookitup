@@ -1,4 +1,4 @@
-# cookitUP - Anand
+# cookitUP - Anand, Devansh
 
 # This application takes in an Image and give out the ingredients used to make the dish
 
