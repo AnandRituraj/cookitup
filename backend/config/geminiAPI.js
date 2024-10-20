@@ -14,7 +14,7 @@ const processImage = async (file) => {
         const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
         const result = await model.generateContent([
-            'Generate a recipe based on this image and for instructions section it should be considered as single dish not sub dishes in it: and give name, ingredients, instructions and tips thats it each time',
+            'Generate a recipe based on this image and for instructions section it should be considered as single dish not sub dishes in it: and give name, ingredients, instructions and tips thats it each time, also if the image is not a food item dont return anything',
             {
                 inlineData: {
                     mimeType: 'image/png',
